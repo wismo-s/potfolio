@@ -1,0 +1,36 @@
+.proyect-container{
+    width: 80%;
+    margin: 0 auto;
+}
+.proyect-container h2{
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--terceary-color);
+    margin-bottom: 10px;
+}
+.proyect-card{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-bottom: 20px;
+}
+.proyect-img-container{
+    width: 100%;
+    height: 350px;
+    background-color: var(--terceary-color);
+    margin-right: 15px;
+}
+.proyect-tec-container{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    background-color: var(--fourth-color);
+}
+.tec-item{
+    width: 60px;
+    height: 70px;
+    background-color: var(--terceary-color);
+}
