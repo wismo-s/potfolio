@@ -1,4 +1,4 @@
-import '../styles/about.css';
+import '../styles/About.css';
 export function Aboutme() {
   return (
     <section id="about" className="seccion-container">
