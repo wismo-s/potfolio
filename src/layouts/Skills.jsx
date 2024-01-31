@@ -1,4 +1,4 @@
-import '../styles/Skills.css'
+import '../styles/skills.css'
 export function Skills() {
   return (
     <section id="skills" className="seccion-container">
