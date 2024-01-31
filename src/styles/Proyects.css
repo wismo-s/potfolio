@@ -1,36 +1,104 @@
-.proyect-container{
-    width: 80%;
-    margin: 0 auto;
-}
-.proyect-container h2{
-    font-size: 2rem;
-    font-weight: 700;
-    color: var(--terceary-color);
-    margin-bottom: 10px;
-}
 .proyect-card{
     width: 100%;
     height: auto;
     display: flex;
     margin-bottom: 20px;
+    align-items: center;
 }
-.proyect-img-container{
-    width: 100%;
-    height: 350px;
-    background-color: var(--terceary-color);
-    margin-right: 15px;
+.proyect-card-info{
+    padding: 25px 20px;
+    border: var(--text-shadow) 1px solid;
+    box-shadow: 0px 0px 8px 0px var(--text-shadow);
+    border-radius: 10px;
+    margin: 15px 0;
+}
+video{
+    width: 40%;
+    height: 100%;
+    object-fit: contain;
+    margin: 0 40px;
 }
 .proyect-tec-container{
     width: 100%;
-    height: 80px;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 15px;
-    background-color: var(--fourth-color);
+}
+.proyect-card-info h2{
+    color: var(--text-color);
+    text-shadow: 2px 2px 4px var(--text-shadow);
+    margin: 10px 0;
+    font-size: 2rem;
+}
+.proyect-card-info h3{
+    color: var(--text-color);
+    text-shadow: 2px 2px 4px var(--text-shadow);
+    margin: 10px 0;
+    font-size: 1.5rem;
+}
+.proyect-card-info p{
+    font-size: 1.2rem;
+    color: var(--ancor-color);
+    text-shadow: 2px 2px 4px var(--text-shadow);
 }
 .tec-item{
     width: 60px;
     height: 70px;
-    background-color: var(--terceary-color);
+}
+.tec-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.repo-container{
+    display: flex;
+}
+.proyect-repo-button{
+    display: flex;
+    width: 150px;
+    height: 50px;
+    margin: 0 5px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    border: var(--secondary-color) 1px solid;
+    background-color: transparent;
+    color: var(--ancor-color);
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 1px 1px 6px 0px #5763c5;
+}
+.proyect-repo-button:hover{
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    & svg{
+        fill: var(--text-color);
+    }
+}
+@media screen and (max-width: 1180px) {
+    video{
+        width: 100%;
+    }
+    .proyect-card{
+        flex-direction: column;
+        margin: 50px 0;
+    }
+    .proyect-card-info{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 710px) {
+    .tec-item{
+        width: 40px;
+        height: 50px;
+    }
+}
+@media screen and (max-width: 520px) {
+    .tec-item{
+        width: 25px;
+        height: 35px;
+    }
 }

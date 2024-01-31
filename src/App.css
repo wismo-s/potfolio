@@ -10,14 +10,35 @@ html{
   scroll-behavior: smooth;
 }
 :root{
-  --primary-color: #b2e3ca;
-  --secondary-color: #6a7b69;
-  --terceary-color: #484944;
-  --fourth-color: #efe9e7;
+  --primary-color: #040015;
+  --secondary-color: #6950c2;
+  --terceary-color: #1e1a2e;
+  --fourth-color: #311c72;
+  --text-color: white;
+  --text-shadow: #e7a1fede;
+  --ancor-color: #ccc4ff;
 }
 ul{
   list-style-type: none;
 }
 body{
   background-color: var(--primary-color);
+}
+.seccion-title{
+  font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--text-color);
+    text-align: center;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px var(--text-shadow);
+}
+.seccion-container{
+  width: 80%;
+  margin: 0 auto;
+  padding: 80px 0;
+}
+@media screen and (max-width: 640px) {
+  .seccion-container{
+    width: 95%;
+  }
 }

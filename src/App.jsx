@@ -4,6 +4,7 @@ import { Skills } from './layouts/Skills'
 import { Proyects } from './layouts/Proyects'
 import { Contact } from './layouts/Contact'
 import { Footer } from './layouts/Footer'
+import { Aboutme } from './layouts/Aboutme'
 import './App.css'
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Home></Home>
       <Skills></Skills>
       <Proyects></Proyects>
+      <Aboutme></Aboutme>
       <Contact></Contact>
       <Footer></Footer>
     </>
