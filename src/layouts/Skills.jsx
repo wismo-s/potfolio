@@ -6,11 +6,11 @@ export function Skills() {
         <h2 className='seccion-title'>SKILLS</h2>
         <div className='skills-grid-container'>
             <article className='skill-item'>
-                <div className='skill-img-container'><img src="src/assets/html.webp" alt="HTML" /></div>
+                <div className='skill-img-container'><img src={tecnologies.html} alt="HTML" /></div>
                 <span>HTML</span>
             </article>
             <article className='skill-item'>
-                <div className='skill-img-container'><img src="src/assets/css.webp" alt="CSS" /></div>
+                <div className='skill-img-container'><img src={tecnologies.css} alt="CSS" /></div>
                 <span>CSS</span>
             </article>
             <article className='skill-item'>
@@ -18,47 +18,47 @@ export function Skills() {
                 <span>Boostrap</span>
             </article>
             <article className='skill-item'>
-                <div className='skill-img-container'><img src="src/assets/tailwind.webp" alt="Tailwind" /></div>
+                <div className='skill-img-container'><img src={tecnologies.tailwind} alt="Tailwind" /></div>
                 <span>Tailwind</span>
             </article>
             <article className='skill-item'>
-                <div className='skill-img-container'><img src="src/assets/sass.webp" alt="SASS" /></div>
+                <div className='skill-img-container'><img src={tecnologies.sass} alt="SASS" /></div>
                 <span>SASS</span>
             </article>
             <article className='skill-item'>
-                <div className='skill-img-container'><img src="src/assets/git.webp" alt="git" /></div>
+                <div className='skill-img-container'><img src={tecnologies.git} alt="git" /></div>
                 <span>git</span>
             </article>
             <article className='skill-item'>
-                <div className='skill-img-container'><img src="src/assets/js.webp" alt="JavaScript" /></div>
+                <div className='skill-img-container'><img src={tecnologies.js} alt="JavaScript" /></div>
                 <span>JavaScript</span>
             </article>
             <article className='skill-item'>
-                <div className='skill-img-container'><img src="src/assets/react.webp" alt="React" /></div>
+                <div className='skill-img-container'><img src={tecnologies.react} alt="React" /></div>
                 <span>React</span>
             </article>
             <article className='skill-item'>
-                <div className='skill-img-container'><img src="src/assets/vite.webp" alt="Vite" /></div>
+                <div className='skill-img-container'><img src={tecnologies.vite} alt="Vite" /></div>
                 <span>Vite</span>
             </article>
             <article className='skill-item'>
-                <div className='skill-img-container'><img src="src/assets/npm.webp" alt="npm" /></div>
+                <div className='skill-img-container'><img src={tecnologies.npm} alt="npm" /></div>
                 <span>npm</span>
             </article>
             <article className='skill-item'>
-                <div className='skill-img-container'><img src="src/assets/java.webp" alt="java" /></div>
+                <div className='skill-img-container'><img src={tecnologies.java} alt="java" /></div>
                 <span>java</span>
             </article>
             <article className='skill-item'>
-                <div className='skill-img-container'><img src="src/assets/python.webp" alt="python" /></div>
+                <div className='skill-img-container'><img src={tecnologies.python} alt="python" /></div>
                 <span>python</span>
             </article>
             <article className='skill-item'>
-                <div className='skill-img-container'><img src="src/assets/django.webp" alt="Django" /></div>
+                <div className='skill-img-container'><img src={tecnologies.django} alt="Django" /></div>
                 <span>Django</span>
             </article>
             <article className='skill-item'>
-                <div className='skill-img-container'><img src="src/assets/postgresql-icon.webp" alt="PostgreSQL" /></div>
+                <div className='skill-img-container'><img src={tecnologies.postgrest} alt="PostgreSQL" /></div>
                 <span>PostgreSQL</span>
             </article>
         </div>

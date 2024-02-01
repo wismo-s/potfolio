@@ -1,5 +1,6 @@
 import '../styles/Home.css'
 import { Github, Linkedin } from 'react-bootstrap-icons'
+import { gifs } from '../assets/Images'
 export function Home() {
   return (
     <section id="home" className='home-container'>
@@ -18,7 +19,7 @@ export function Home() {
         </div>
       </div>
       <div className='home-hollow'>
-        <img src="src/assets/hollow.gif" alt="" />
+        <img src={gifs.hollow} alt="" />
       </div>
     </section>
   )
