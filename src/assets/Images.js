@@ -1,4 +1,4 @@
-import bootstrap from './bootstrap.webp';
+import bootstrap from './boostrap.webp';
 
 export const tecnologies = {
     bootstrap: bootstrap,
