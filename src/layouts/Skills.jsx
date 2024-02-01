@@ -1,4 +1,5 @@
 import '../styles/skills.css'
+import { tecnologies } from '../assets/Images'
 export function Skills() {
   return (
     <section id="skills" className="seccion-container">
@@ -13,7 +14,7 @@ export function Skills() {
                 <span>CSS</span>
             </article>
             <article className='skill-item'>
-                <div className='skill-img-container'><img src="src/assets/boostrap.webp" alt="Boostrap" /></div>
+                <div className='skill-img-container'><img src={tecnologies.bootstrap} alt="Boostrap" /></div>
                 <span>Boostrap</span>
             </article>
             <article className='skill-item'>
