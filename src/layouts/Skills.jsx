@@ -3,7 +3,7 @@ import { tecnologies } from '../assets/Images'
 export function Skills() {
   return (
     <section id="skills" className="seccion-container">
-        <h2 className='seccion-title'>SKILLS</h2>
+        <h2 className='seccion-title'>Skills</h2>
         <div className='skills-grid-container'>
             <article className='skill-item'>
                 <div className='skill-img-container'><img src={tecnologies.html} alt="HTML" /></div>
